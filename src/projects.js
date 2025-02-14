@@ -1,10 +1,10 @@
 const projects = [
     {
       id: 1,
-      title: "Sistema de Gestão",
-      description: "Aplicação web para gestão de negócios com painel administrativo.",
-      techs: ["React", "Node.js", "MongoDB"],
-      link: "https://meuprojeto.com",
+      title: "Quizz",
+      description: "Game-Quizz",
+      techs: ["React", "Node.js"],
+      link: "https://pedrojcalmeida.github.io/portfolio-quizz/",
       image: "/images/project1.png",
     },
     {
