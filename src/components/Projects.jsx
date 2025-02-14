@@ -9,7 +9,7 @@ const Projects = () => {
                 </h2>
 
                 {/* Grid responsiva */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                     {projects.map((project) => (
                         <div
                             key={project.id}
@@ -41,14 +41,13 @@ const Projects = () => {
                             </div>
 
                             {/* Botão sempre alinhado no final */}
-                            <a
-                                href={project.link}
-                                target="_blank"
-                                rel="noopener noreferrer"
+                            <button
                                 className="bg-blue-600 text-white text-lg font-semibold px-6 py-3 rounded-lg shadow-lg hover:bg-blue-500 transition duration-300 ease-in-out transform hover:scale-105 outline-none focus:ring-2 focus:ring-blue-300"
-                            >
-                                🔗 Ver Projeto
-                            </a>
+                                onClick={() => {
+                                    window.open(project.link, '_blank', 'noopener noreferrer');
+                                }}
+                            >🔗 Ver Projeto
+                            </button>
                         </div>
                     ))}
                 </div>

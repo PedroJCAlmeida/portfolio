@@ -12,7 +12,7 @@ const projects = [
       title: "E-commerce Moderno",
       description: "Plataforma de vendas online com pagamentos integrados.",
       techs: ["Next.js", "Tailwind", "Firebase"],
-      link: "https://ecommerce.com",
+      link: "https://pedrojcalmeida.github.io/portfolio-jogo-do-galo/",
       image: "/images/project2.png",
     },
     {
