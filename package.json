@@ -1,8 +1,8 @@
 {
   "name": "pedro-almeida",
-  "homepage": "https://pedrojcalmeida.github.io/portifolio-react",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
+  "homepage": "https://pedrojcalmeida.github.io/portifolio-react",
   "type": "module",
   
   
@@ -11,8 +11,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.6",
