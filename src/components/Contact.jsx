@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import emailjs from 'emailjs-com';
 
 const Contact = () => {
@@ -10,6 +10,19 @@ const Contact = () => {
   const [successMessage, setSuccessMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    let timer;
+
+    if (successMessage || errorMessage) {
+      timer = setTimeout(() => {
+        setSuccessMessage('');
+        setErrorMessage('');
+      }, 10000); 
+    }
+
+    return () => clearTimeout(timer); // Limpa o timer se o componente for desmontado ou a mensagem mudar
+  }, [successMessage, errorMessage]);
 
   const handleChange = (e) => {
     setFormData({...formData, [e.target.name]: e.target.value });
