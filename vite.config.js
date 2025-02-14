@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base:"https://pedrojcalmeida.github.io/portifolio-react",
+  base:"https://pedrojcalmeida.github.io/portfolio",
   plugins: [react(),tailwindcss()],
   
 })
