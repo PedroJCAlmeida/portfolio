@@ -9,6 +9,10 @@ const Technologies = () => {
             <div className="bg-gray-700 p-6 rounded-lg">Tailwind CSS</div>
             <div className="bg-gray-700 p-6 rounded-lg">JavaScript</div>
             <div className="bg-gray-700 p-6 rounded-lg">Node.js</div>
+            <div className="bg-gray-700 p-6 rounded-lg">Node.js</div>
+            <div className="bg-gray-700 p-6 rounded-lg">Node.js</div>
+            <div className="bg-gray-700 p-6 rounded-lg">Node.js</div>
+            <div className="bg-gray-700 p-6 rounded-lg">Node.js</div>
           </div>
         </div>
       </section>
