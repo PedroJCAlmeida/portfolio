@@ -11,7 +11,7 @@ const Technologies = () => {
         <p className="mb-8 text-center">
           Aqui estão algumas das tecnologias com as quais trabalho:
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6">
           {technologies.map((tech) => (
             <a
               key={tech.name}
@@ -21,7 +21,7 @@ const Technologies = () => {
               <img
                 src={tech.image} // Exibe a imagem da tecnologia
                 alt={tech.name} // Texto alternativo para acessibilidade
-                className="h-16 w-16 mb-4 object-contain" // Ajuste o tamanho da imagem conforme necessário
+                className="h-10 w-10 mb-4 object-contain" // Ajuste o tamanho da imagem
               />
               <span className="text-lg font-medium">{tech.name}</span>{' '}
               {/* Exibe o nome da tecnologia */}
