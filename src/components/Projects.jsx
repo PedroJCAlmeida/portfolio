@@ -8,27 +8,25 @@ const Projects = () => {
                     Projectos
                 </h2>
 
-                {/* Grid responsiva */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                     {projects.map((project) => (
                         <div
                             key={project.id}
-                            className="bg-gray-800 p-2 rounded-lg shadow-lg hover:shadow-xl transition-shadow flex flex-col min-h-[400px]"
+                            className="bg-gray-800 p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow flex flex-col"
                         >
-                            {/* Imagem responsiva */}
                             <img
                                 src={project.image}
                                 alt={project.title}
                                 className="w-full h-48 object-cover rounded-lg mb-4"
                             />
 
-                            {/* Conteúdo principal */}
-                            <div className="flex-1">
-                                <h3 className="text-xl font-semibold">{project.title}</h3>
-                                <p className="text-gray-400">{project.description}</p>
+                            <div className="flex-grow">
+                                <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
+                                <p className="text-gray-400 mb-4">{project.description}</p>
+                            </div>
 
-                                {/* Tecnologias usadas */}
-                                <div className="flex flex-wrap gap-2 mt-3">
+                            <div className="mt-auto"> {/* Tecnologias e botão agrupados */}
+                                <div className="flex flex-wrap gap-2 mb-4"> {/* Margem inferior para separar do botão */}
                                     {project.techs.map((tech) => (
                                         <span
                                             key={tech}
@@ -38,16 +36,16 @@ const Projects = () => {
                                         </span>
                                     ))}
                                 </div>
-                            </div>
 
-                            {/* Botão sempre alinhado no final */}
-                            <button
-                                className="bg-blue-600 text-white text-lg font-semibold px-6 py-3 rounded-lg shadow-lg hover:bg-blue-500 transition duration-300 ease-in-out transform hover:scale-105 outline-none focus:ring-2 focus:ring-blue-300"
-                                onClick={() => {
-                                    window.open(project.link, '_blank', 'noopener noreferrer');
-                                }}
-                            >🔗 Ver Projeto
-                            </button>
+                                <button
+                                    className="bg-blue-600 text-white text-lg font-semibold px-6 py-3 rounded-lg shadow-lg hover:bg-blue-500 transition duration-300 ease-in-out transform hover:scale-105 outline-none focus:ring-2 focus:ring-blue-300 w-full"
+                                    onClick={() => {
+                                        window.open(project.link, '_blank', 'noopener noreferrer');
+                                    }}
+                                >
+                                    🔗 Ver Projeto
+                                </button>
+                            </div>
                         </div>
                     ))}
                 </div>
