@@ -1,40 +1,92 @@
 import ImgReact from "./assets/react.svg"
+import ImgVite from "./assets/vite.svg"
 import ImgTailwind from "./assets/tailwind.svg"
-import ImgJavaScript from "./assets/JavaScript.svg"
+import ImgJavaScript from "./assets/javascript.png"
+import ImgNodeJs from "./assets/nodejs.png"
+import ImgPython from "./assets/python.png"
+import ImgJava from "./assets/java.png"
+import ImgCSharp from "./assets/csharp.png"
+import ImgCSS from "./assets/css.png"
+import ImgHTML from "./assets/html.png"
+import ImgMySQL from "./assets/mysql.png"
+import ImgSQLServer from "./assets/sqlserver.png"
+import ImgSwagger from "./assets/swagger.png"
+import ImgPostam from "./assets/postman.png"
+import ImgBootstrap from "./assets/bootstrap.png"
+import ImgSpringBoot from "./assets/springboot.png"
+
+
+
+
 
 const technologies = [
     {
       name: 'React',
-      image: ImgReact, // Substitua pelo caminho da imagem
+      image: ImgReact,
+      
+    },
+    {
+      name: 'Vite',
+      image: ImgVite, 
       
     },
     {
       name: 'Tailwind CSS',
-      image: ImgTailwind, // Substitua pelo caminho da imagem
+      image: ImgTailwind, 
+    },
+    {
+      name: 'CSS',
+      image: ImgCSS, 
+    },
+    {
+      name: 'HTML',
+      image: ImgHTML, 
     },
     {
       name: 'JavaScript',
-      image: ImgJavaScript, // Substitua pelo caminho da imagem
+      image: ImgJavaScript, 
     },
     {
       name: 'Node.js',
-      image: '/images/nodejs-logo.png', // Substitua pelo caminho da imagem
+      image: ImgNodeJs,
     },
     {
       name: 'Java',
-      image: '/images/java-logo.png', // Substitua pelo caminho da imagem
+      image: ImgJava, 
+    },
+    {
+      name: 'Spring Boot',
+      image: ImgSpringBoot, 
     },
     {
       name: 'C#',
-      image: '/images/csharp-logo.png', // Substitua pelo caminho da imagem
+      image: ImgCSharp, 
+    },
+    
+    {
+      name: 'Bootstrap',
+      image: ImgBootstrap, 
+    },
+  
+    {
+      name: 'MySQL',
+      image: ImgMySQL,
     },
     {
-      name: 'SQL',
-      image: '/images/sql-logo.png', // Substitua pelo caminho da imagem
+      name: 'SQL Server',
+      image: ImgSQLServer,
     },
     {
       name: 'Python',
-      image: '/images/python-logo.png', // Substitua pelo caminho da imagem
+      image: ImgPython, 
+    },
+    {
+      name: 'Swagger',
+      image: ImgSwagger, 
+    },
+    {
+      name: 'Postman',
+      image: ImgPostam, 
     },
   ];
   export default technologies;
