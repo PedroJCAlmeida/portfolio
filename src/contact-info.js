@@ -17,7 +17,7 @@ const socialMedia = {
         {
             name: 'Instagram',
             icon: ImgInstagram,
-            link: 'https://www.instagram.com/pjcalmeia',
+            link: 'https://www.instagram.com/pjcalmeida',
         },
         {
             name: 'Facebook',
