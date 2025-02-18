@@ -43,7 +43,7 @@ const projects = [
     title: "PlacePicker",
     description: "Aplicativo web em React para criar listas de lugares favoritos com ordenação por proximidade.",
     techs: ["Node.js", "React", "Vite", "CSS", "JavaScrit"],
-    link: "https://pedrojcalmeida.github.io/portfolio-place-picker/",
+    link: "https://github.com/PedroJCAlmeida/portfolio-place-picker",
     image: ImgPlacePicker,
   },
 ];
