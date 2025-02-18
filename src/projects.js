@@ -2,6 +2,7 @@ import ImgQuizz from "./assets/projects/quizz.png"
 import ImgJogoDoGalo from "./assets/projects/jogo-do-galo.png"
 import ImgSimpleShop from "./assets/projects/shop.png" 
 import ImgTaskManage from "./assets/projects/task-manage.png" 
+import ImgPlacePicker from "./assets/projects/placepicker.png" 
 
 
 const projects = [
@@ -37,14 +38,14 @@ const projects = [
     link: "https://github.com/PedroJCAlmeida/toDoListReact",
     image: ImgTaskManage,
   },
- /* {
-    id: 5,
-    title: "E-commerce Moderno",
-    description: "Plataforma de vendas online com pagamentos integrados.",
-    techs: ["Next.js", "Tailwind", "Firebase"],
-    link: "https://ecommerce.com",
-    image: "/images/project2.png",
-  },*/
+ {
+    id: 6,
+    title: "PlacePicker",
+    description: "Aplicativo web em React para criar listas de lugares favoritos com ordenação por proximidade.",
+    techs: ["Node.js", "React", "Vite", "CSS", "JavaScrit"],
+    link: "https://pedrojcalmeida.github.io/portfolio-place-picker/",
+    image: ImgPlacePicker,
+  },
 ];
 
 export default projects;
