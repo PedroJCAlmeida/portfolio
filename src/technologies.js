@@ -14,7 +14,8 @@ import ImgSwagger from "./assets/technologies/swagger.png"
 import ImgPostam from "./assets/technologies/postman.png"
 import ImgBootstrap from "./assets/technologies/bootstrap.png"
 import ImgSpringBoot from "./assets/technologies/springboot.png"
-
+import ImgTypeScript from "./assets/technologies/typescript.png"
+import ImgNextJs from "./assets/technologies/next-js.png"
 
 
 
@@ -47,8 +48,16 @@ const technologies = [
       image: ImgJavaScript, 
     },
     {
+      name: 'TypeScript',
+      image: ImgTypeScript, 
+    },
+    {
       name: 'Node.js',
       image: ImgNodeJs,
+    },
+    {
+      name: 'Next.js',
+      image: ImgNextJs,
     },
     {
       name: 'Java',
