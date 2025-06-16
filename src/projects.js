@@ -3,6 +3,7 @@ import ImgJogoDoGalo from "./assets/projects/jogo-do-galo.png"
 import ImgSimpleShop from "./assets/projects/shop.png" 
 import ImgTaskManage from "./assets/projects/task-manage.png" 
 import ImgPlacePicker from "./assets/projects/placepicker.png" 
+import ImgParoquiaPerto from "./assets/projects/paroquia-perto.png"
 
 
 const projects = [
@@ -46,6 +47,14 @@ const projects = [
     link: "https://github.com/PedroJCAlmeida/portfolio-place-picker",
     image: ImgPlacePicker,
   },
+  {
+  id: 7,
+  title: "Paróquia Perto",
+  description: "⛪ Plataforma web para localizar paróquias próximas, ver horários de missa, eventos e comunicados. Desenvolvido em colaboração com Renato Alves.",
+  techs: ["React", "Spring Boot", "PostgreSQL", "CSS", "HTML"],
+  link: "https://paroquiaperto.com", 
+  image: ImgParoquiaPerto,
+},
 ];
 
 export default projects;
